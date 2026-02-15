@@ -130,101 +130,33 @@ Application Workflow diagram:
 
 <img width="250" height="471" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/dce04fb4-3d28-44f4-bda5-88a9f1ddebbf" />
 
+The diagram represents the end-to-end user journey in the SheSkill platform. Users begin by authenticating, then explore available skills, book sessions, communicate via chat, and track their learning through a personalized dashboard. The workflow ensures a seamless and engaging learning experience.
 
-
-Additional Documentation
-API Documentation (Sample)
-
-Base URL:
-
-https://api.sheskill.com
-
-GET /skills
-
-Description: Fetch all skills
-
-Response:
-
-{
-  "status": "success",
-  "data": []
-}
-
-POST /book
-
-Description: Book a session
-
-Request Body:
-
-{
-  "userId": "123",
-  "skillId": "456"
-}
-
-
-Response:
-
-{
-  "status": "success",
-  "message": "Booking confirmed"
-}
 
 Project Demo
-Video
+Video link:
 
-[Add YouTube/Drive demo link]
+(https://drive.google.com/drive/folders/1_MjEJhgtOoqq24rabopaoVjGLyL5EwQu)
 
-Video should demonstrate:
+Video demonstrates:
 
-User signup/login
+* User signup/login
 
-Skill browsing
+* Skill browsing
 
-Booking flow
+* Booking flow
 
-Chatbot usage
+* Chatbot usage
 
-Dashboard
+* Dashboard
 
-AI Tools Used (Optional)
 
-Tool Used: ChatGPT
-
-Purpose:
-
-Debugging React issues
-
-UI suggestions
-
-Code optimization
-
-Key Prompts Used:
-
-“Create React authentication flow”
-
-“Fix Context API state update issue”
-
-“Responsive UI improvements”
-
-Approx. AI Code Usage: 20–30%
-
-Human Contributions:
-
-UI/UX design
-
-Architecture planning
-
-Feature integration
-
-Testing
 
 Team Contributions
 
-Member 1: Frontend development & UI
+Member 1: Authentication, state management, chat feature implementation, and functional testing.
 
-Member 2: Authentication & state management
-
-Member 3: Chat, booking & testing
+Member 2: Frontend development & UI design, booking feature implementation, and UI testing.
 
 License
 
